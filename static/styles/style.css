@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(218, 240, 26);
+
+}
+
+form {
+    background-color: rgb(218, 240, 26);
+    padding: 20px;
+    margin: 0 auto;
+    width: 540px auto;
+    font: 16px sans-serif;
+    border-radius: 10px;
+    display: inline-block;
+}
+textarea {
+   
+    margin: 10px 0;
+    width: 540px;
+    height: 200px;
+}
+h1{
+    color: #0c050c;
+
+}
+li p{
+    text-indent: 50px;
+}
+.error {
+    color: red;
+}

@@ -13,7 +13,7 @@ class Blog(db.Model):
     name = db.Column(db.String(120))
     body = db.Column(db.String(1000))
 
-   def __init__(self, name, body):
+def __init__(self, name, body):
         self.name = name
         self.body = body
     
@@ -41,7 +41,7 @@ def newpost():
             body_error = ""
 
         if not name_error and not body_error:
-            new_blog = Blog(blog_name, body)
+            new_blog = Blog(blog_name,body)
             db.session.add(new_blog)
             db.session.commit()
             blog_id = str(new_blog.id)
