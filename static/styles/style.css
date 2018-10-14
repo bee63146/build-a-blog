@@ -1,18 +1,18 @@
-body{
+.center-body{
     background-color: rgb(218, 240, 26);
 
 }
 
-form {
+.center-form {
     background-color: rgb(218, 240, 26);
     padding: 20px;
     margin: 0 auto;
-    width: 540px auto;
+    box-align: center;
     font: 16px sans-serif;
     border-radius: 10px;
     display: inline-block;
 }
-textarea {
+.center-textarea {
    
     margin: 10px 0;
     width: 540px;
