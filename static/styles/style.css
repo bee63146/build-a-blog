@@ -1,9 +1,9 @@
-.center-body{
+body {
     background-color: rgb(218, 240, 26);
 
 }
 
-.center-form {
+form {
     background-color: rgb(218, 240, 26);
     padding: 20px;
     margin: 0 auto;
@@ -12,9 +12,9 @@
     border-radius: 10px;
     display: inline-block;
 }
-.center-textarea {
+content {
    
-    margin: 10px 0;
+    margin: 10px;
     width: 540px;
     height: 200px;
 }
